@@ -14,8 +14,7 @@ const projects = [
     type: 'MERN · AI · Real-time collaboration',
     description:
       'An AI-powered group chat and event planning platform with Socket.io messaging, Gemini suggestions, social sharing, Redis caching, and secure JWT authentication.',
-    image:
-      '../dist/assets/plattogether.png',
+    image: '/assets/plattogether.png',
     link: 'https://github.com/arfazans/PlanToget',
   },
   {
@@ -23,8 +22,7 @@ const projects = [
     type: 'React · Node · PostgreSQL · Hackathon',
     description:
       'A multi-tenant operations hub with a visual React Flow site builder, role-based workflows, versioned publishing, analytics, and Excel import/export.',
-    image:
-      '../dist/assets/opshub.png',
+    image: '/assets/opshub.png',
     link: 'https://github.com/arfazans/OPSHUB',
   },
   {
@@ -32,8 +30,7 @@ const projects = [
     type: 'MERN · Cloudinary · Tailwind CSS',
     description:
       'A full-stack platform for managing lost and found items with MVC architecture, CRUD APIs, authentication, media uploads, and responsive navigation.',
-    image:
-      '../dist/assets/lost&found.png',
+    image: '/assets/lost&found.png',
     link: 'https://github.com/arfazans/LostandFound',
   },
 ]
@@ -137,7 +134,7 @@ export default function Portfolio() {
         <section className="content-section about-section" id="about">
           <Reveal className="section-tag"><span className="section-ghost">01</span><span className="section-label">About me</span></Reveal>
           <div className="about-grid">
-            <Reveal><div className="portrait-placeholder"> <img className='w-full h-full object-cover' src="../dist/assets/arfaz.png" alt="" srcset="" /><div className="portrait-caption">developer / learner / builder</div></div></Reveal>
+            <Reveal><div className="portrait-placeholder"> <img className='w-full h-full object-cover' src="/assets/arfaz.png" alt="Portrait of Arfaz Ansari" /><div className="portrait-caption">developer / learner / builder</div></div></Reveal>
             <Reveal className="about-copy">
               <h2>Curious by nature.<br /><span className="accent">Serious about craft.</span></h2>
               <p>I&apos;m Arfaz Ansari, a second-year MCA student at VESIT and a MERN-stack developer with a 9.00 CGPA in BCA. I enjoy turning complex requirements into dependable, user-friendly products.</p>
